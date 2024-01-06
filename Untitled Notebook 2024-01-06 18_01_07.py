@@ -4,4 +4,5 @@
 # COMMAND ----------
 
 df = spark.read.format("csv").option("header", True).load("path")
+df.show()
 
