@@ -9,7 +9,6 @@ table_name = []
 for i in dbutils.fs.ls('mnt/raw/dbo/'):
     table_name.append(i.name.split('/')[0])
 #changes
-#adsfkjdskf
 
 # COMMAND ----------
 
